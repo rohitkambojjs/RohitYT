@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import { Button } from './components/ui/button'
+import React from 'react'
+import SearchResult from './pages/SearchResult'
 // import './App.css'
 
 function App() {
-
   return (
     <>
-      <Button>Hello World</Button>
+      <SearchResult />
     </>
   )
 }
